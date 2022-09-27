@@ -33,7 +33,10 @@ public class PessoaFisica {
 		Conta gerente = new Conta();
 		double relatorio = gerente.soma(cc1.saldo, cc2.saldo);
 		System.out.println("Saldo total nas contas: R$ " + 
-		relatorio);		
+		relatorio);	
+		System.out.println("-----------------------");
+		System.out.println("Integração do Eclipse com o Github");
+		System.out.println("-----------------------");
 	}
 
 }
